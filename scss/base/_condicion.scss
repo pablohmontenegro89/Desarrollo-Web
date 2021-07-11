@@ -1,0 +1,10 @@
+@mixin condicion($widthIf) {
+    width: $widthIf;
+
+    @if $widthIf == 37% {
+        background-color: white;
+    } @else {
+        background-color: green;
+    }
+    
+}

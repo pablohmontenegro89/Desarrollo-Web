@@ -1,0 +1,102 @@
+@import '../base/colores';
+@import '../base/extend';
+@import '../base/mixin';
+@import '../base/operadores';
+
+.index-cuerpo {
+    background-color: lighten($gray, 45%);
+    margin-top: 3.63rem;
+    .index-prologo{
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgb(218, 213, 213);
+        .tit-prologo{
+            color: $azulado !important;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .index-funcional{
+            float: unset !important;
+            width: 100vw !important;
+            padding: 0.3rem;
+        }
+        .prologo-text{
+
+        }
+    }
+}
+
+.index-metodos{     color: $azulado;
+    margin: 1.3rem;   }
+
+.cuerpo-container{
+    .axure{
+        @include flee(flex, space-evenly);
+        padding-top: $mme * 2;
+        
+            background-image: url("../images/index/fon.jpg");
+            @extend %Background;
+           
+          
+        .metodos-container{
+            .index-entrenam{
+                border: 1px solid black;
+                padding: 0rem;
+                box-shadow: 2px 4px 10px 0 #000 ;
+                transition: width 1.3s, padding 1s ;
+                margin-bottom: 2rem;
+                padding: 3rem 3rem 3rem 2rem ;
+                background:#b1b4be ;
+                border-radius: 2%;
+                &:hover{
+                        transition: all 0.4s ease-in-out 0s ;
+                        box-shadow: 2px 4px 10px 0 #000 ;
+                        padding: $mme * 2 ;
+                        background: rgba(61,87,154,0.7);
+                    }
+                .index-entrenam-link{
+                    &:hover{
+                        transition: all 0.4s ease-in-out 0s;
+                        color: white;
+                    }
+                }
+                .index-entrenam-im{
+                    object-fit: cover;
+                }
+            }
+        }
+        .motivacion{
+            padding: 3rem 3rem 0rem 3rem;
+            margin-bottom: 3rem;
+            .motivacion-descvid-container{
+                .motivacion-titule{
+                    color: $azulado !important;
+                }
+                .frase-motivacional{
+                    font-size: 2.6rem;
+                }
+                .halt-videoo{
+                    .motivacion-video{
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* LO SEPARO PORQUE YA ES RESPONSIVE EL CAROUSEL */
+.texto-caro {
+    text-align: left !important;
+}
+
+.titulo-principal {
+    color: $azulado;
+    font-weight: 400;
+}
+
+.nuestra-mision {
+color: $azulado;
+}

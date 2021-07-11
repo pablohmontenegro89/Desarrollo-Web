@@ -1,0 +1,48 @@
+/* BOOTSTRAP */
+
+.titulo-principal {
+    padding: 1rem 0;
+  }
+  
+  /* GENERAL */
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5% ;
+    height: 100% ;
+    min-height: 100% ;
+  }
+  
+  * {
+    padding: 0 ;
+    margin: 0 ;
+  }
+  
+  h1 {
+    font-size: 3rem ;
+    font-family: "Barlow Condensed", sans-serif ;
+    font-display: swap;
+  }
+  
+  h2 {
+    font-size: 2.5rem ;
+  }
+  
+  h3 {
+    font-size: 2rem ;
+  } 
+  body {
+    background: #ffffff ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-attachment: fixed ;
+  }
+  
+  a {
+    text-decoration: none ;
+    color: black ;
+  }
+  
+  p {
+    font-size: 1.85rem ;
+  }

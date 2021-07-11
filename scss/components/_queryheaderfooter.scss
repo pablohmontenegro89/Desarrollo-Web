@@ -1,0 +1,186 @@
+
+
+@media only screen and (min-width: 723px) and (max-width: 1092px) {
+     /* FOOTER */
+     footer {
+         .foot-division {
+            .footer-desc-container {
+                flex-direction: row;
+                justify-content: space-between;
+              }
+            .cont-foot-redes-tabla {
+                flex-direction: row;
+                justify-content: space-between;
+                .redes-cont-ppal {
+
+                    .redes-cont {
+
+                        &:hover {
+
+                        }
+
+                        }
+                    }
+                }
+                .titulotabla-y-tabla{
+                    width: 70%;
+                    h2 {
+
+                    }
+                    .table {
+
+                        td {
+                            padding: 1rem;
+                        }                   
+                    }
+                }
+            }
+        .derechos {
+            font-size: 2rem;
+            }
+        }
+        /* FIN FOOTER */
+    }
+    
+
+
+@media only screen and (min-width: 1092px) and (max-width: 1341px) {
+    /* MENU */
+/*     .index-primer-menu {
+        display: flex !important;
+        margin-top: -2rem;
+    }
+    .index-segundo-menu {
+        display: none;
+    }
+    .menu {
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    } */
+    .header-index{
+        .index-primer-menu {
+            display: flex;
+        }
+        .index-segundo-menu {
+            display: none;
+        }
+        }
+    /* FIN MENU */
+         /* FOOTER */
+         footer {
+            .foot-division {
+               .footer-desc-container {
+                   flex-direction: row;
+                   justify-content: space-between;
+                   .footer-desc-info {
+                       font-size: 2rem;
+                   }
+                 }
+               .cont-foot-redes-tabla {
+                   flex-direction: row;
+                   justify-content: space-between;
+                   padding-top: 2rem;
+                   .redes-cont-ppal {
+                        h3 {
+                            font-size: 2.5rem;
+                        }
+                       .redes-cont {
+                        
+                           &:hover {
+   
+                           }
+   
+                           }
+                       }
+                   }
+                   .titulotabla-y-tabla{
+                       width: 50%;
+                       h2 {
+   
+                       }
+                       .table {
+   
+                           td {
+                               padding: 1rem 0rem;
+                               font-size: 2rem;
+                           }                   
+                       }
+                   }
+               }
+           .derechos {
+               font-size: 2rem;
+               }
+           }
+           /* FIN FOOTER */
+} 
+
+
+@media only screen and (min-width: 1341px) {
+    /* MENU */
+.header-index{
+.index-primer-menu {
+    display: flex;
+}
+.index-segundo-menu {
+    display: none;
+}
+}
+/* FIN MENU */
+         /* FOOTER */
+         footer {
+            .foot-division {
+                flex-direction: row;
+               .footer-desc-container {
+                   flex-direction: row;
+                   width: 45%;               
+                   .footer-tit-qr {
+                    .footer-tit-qr-d {
+                                         
+                    }
+                    .qr-cod {
+                    }
+                }
+                   .footer-desc-info {
+                       font-size: 1.3rem;
+                       
+                   }
+                 }
+               .cont-foot-redes-tabla {
+                   flex-direction: row;
+                   justify-content: space-evenly;
+                   padding-top: 2rem;
+                   .redes-cont-ppal {
+                        h3 {
+                            font-size: 2.5rem;
+                        }
+                       .redes-cont {
+                        
+                           &:hover {
+   
+                           }
+   
+                           }
+                       }
+                   }
+                   .titulotabla-y-tabla{
+                       
+                       h2 {
+   
+                       }
+                       .table {
+   
+                           td {
+                               padding: 1rem 0rem;
+                               font-size: 2rem;
+                           }                   
+                       }
+                   }
+               }
+           .derechos {
+               font-size: 2rem;
+               }
+           }
+           /* FIN FOOTER */
+}  

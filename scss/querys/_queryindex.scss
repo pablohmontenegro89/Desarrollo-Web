@@ -1,0 +1,95 @@
+@import '../base/mixin';
+
+ @media only screen and (max-width: 646px) {
+    @include repe;
+}
+
+@media only screen and (min-width: 646px) and (max-width: 991px) {
+    @include repe;
+    @include reme;
+    .index-entrenam {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1227px) {
+    @include repe;
+    @include reme;
+    .index-entrenam-texto {
+        font-size: 1.3rem;
+    }
+    .frase-motivacional {
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1092px) {
+    @include repe;
+    @include reme;
+    .index-entrenam-texto {
+        font-size: 1.3rem;
+    }
+    .frase-motivacional {
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (min-width: 1092px) and (max-width: 1227px) {
+    @include repe;
+    @include reme;
+    @include piff;
+    .index-entrenam-texto {
+        font-size: 1.3rem;
+    }
+    .frase-motivacional {
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (min-width: 1227px) and (max-width: 1400px) {
+    @include repe;
+    @include reme;
+    @include piff;
+    .index-entrenam-texto {
+        font-size: 1.7rem;
+    }
+    .frase-motivacional {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    @include repe;
+    @include rema;
+    @include piff;
+    .index-entrenam-texto {
+        font-size: 1.9rem;
+    }
+    .frase-motivacional {
+        font-size: 2.7rem !important;
+    }
+    .texto-caro {
+        font-size: 2.3rem;
+    }
+    .prologo-text {
+        font-size: 2.3rem;
+    }
+} 
+
+@media only screen and (min-width: 1700px) {
+    @include repe;
+    @include rema;
+    @include piff;
+    .index-entrenam-texto {
+        font-size: 2.3rem;
+    }
+    .frase-motivacional {
+        font-size: 3rem !important;
+    }
+    .texto-caro {
+        font-size: 2.6rem;
+    }
+    .prologo-text {
+        font-size: 2.5rem;
+    }
+} 

@@ -1,0 +1,42 @@
+@import '../base/extend';
+
+.body-musculacion{
+  background-image: url('https://i.ibb.co/10WFvPc/fondo.jpg');
+ @extend %Background;
+  margin-top: 6.52rem;
+  .musculacion-titulo {
+    color: white; 
+    text-align: center; 
+    font-size: 5rem;
+    padding-top: 1.3rem;
+  }
+  .musculacion-subtitulo {
+    color: white; 
+    text-align: center; 
+    font-size: 3rem;
+  }
+    .muscu-cont {
+    .muscu-card{
+      margin: 2rem;
+      .card-profe-title-muscu{
+        font-size: 2rem;
+      }
+    }
+  }
+  .muscu-map-container{
+    .card-body{   
+    .muscu-map-titulo{
+      color: white; 
+      text-align: center;  
+      font-size: 3.3rem;
+    }
+    .muscu-map-texto{
+      color: white; 
+      text-align: center; 
+      font-size: 3rem;
+    }
+  }
+  }
+}
+
+

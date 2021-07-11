@@ -1,0 +1,1020 @@
+/* BOOTSTRAP */
+.titulo-principal {
+  padding: 1rem 0;
+}
+
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+  min-height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-display: swap;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+body {
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 1.85rem;
+}
+
+.header-index .index-primer-menu {
+  display: none;
+  position: fixed;
+  color: white;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+  z-index: 1;
+  margin-top: -6.52rem;
+  background-image: url("../images/index/fondo2.jpg");
+}
+.header-index .index-primer-menu .header-index-titulos {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0;
+  color: white;
+}
+.header-index .index-primer-menu .menu {
+  display: flex;
+  flex-direction: row;
+}
+.header-index .index-primer-menu .menu ul {
+  font-family: "Lora", serif;
+  font-size: 2.3rem;
+  padding: 1rem;
+  font-display: swap;
+}
+.header-index .index-primer-menu .menu ul .menu-item {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: white;
+  padding: 0.45rem;
+}
+.header-index .index-primer-menu .menu ul .menu-item:hover {
+  transition: all 0.4s ease-in-out 0s;
+  transform: scale(1.5);
+  text-decoration: underline;
+}
+.header-index .index-segundo-menu {
+  background-image: url("../images/index/fondo2.jpg");
+  position: fixed;
+  width: 100%;
+  margin-top: -3.63rem;
+  z-index: 1;
+}
+.navbar-toggler {
+  background: #f8f9fa;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 2rem 0.3rem 2rem;
+  background: #f7f8f9;
+}
+footer .foot-division {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-division .footer-desc-container {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-division .footer-desc-container .footer-tit-qr {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-division .footer-desc-container .footer-tit-qr .footer-tit-qr-d {
+  font-size: 2rem;
+}
+footer .foot-division .footer-desc-container .footer-tit-qr .qr-cod {
+  width: 20rem;
+  align-self: center;
+  padding-top: 2rem;
+}
+footer .foot-division .footer-desc-container .footer-desc-info {
+  width: 100%;
+  padding: 1rem;
+}
+footer .foot-division .cont-foot-redes-tabla {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal .redes-cont {
+  display: flex;
+  margin-top: 1.5rem;
+}
+footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal .redes-cont:hover {
+  transition: all 0.4s ease-in-out 0s;
+  transform: scale(1.03);
+  text-decoration: underline;
+  text-shadow: 2px 2px 7px;
+}
+footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal .redes-cont .redes-img {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+footer .foot-division .cont-foot-redes-tabla .titulotabla-y-tabla {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+footer .foot-division .cont-foot-redes-tabla .titulotabla-y-tabla h2 {
+  align-self: flex-start;
+}
+footer .foot-division .cont-foot-redes-tabla .titulotabla-y-tabla .table {
+  padding: 1px;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  /* font-size: 2rem ; */
+  background: radial-gradient(circle, #fff, #ccc);
+}
+footer .foot-division .cont-foot-redes-tabla .titulotabla-y-tabla .table td {
+  border: 1px solid black;
+}
+footer .derechos {
+  align-self: center;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 723px) and (max-width: 1092px) {
+  /* FOOTER */
+  footer .foot-division .footer-desc-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .foot-division .cont-foot-redes-tabla {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .foot-division .titulotabla-y-tabla {
+    width: 70%;
+  }
+  footer .foot-division .titulotabla-y-tabla .table td {
+    padding: 1rem;
+  }
+  footer .derechos {
+    font-size: 2rem;
+  }
+
+  /* FIN FOOTER */
+}
+@media only screen and (min-width: 1092px) and (max-width: 1341px) {
+  /* MENU */
+  /*     .index-primer-menu {
+          display: flex !important;
+          margin-top: -2rem;
+      }
+      .index-segundo-menu {
+          display: none;
+      }
+      .menu {
+          ul{
+              display: flex;
+              flex-direction: column;
+          }
+      } */
+  .header-index .index-primer-menu {
+    display: flex;
+  }
+  .header-index .index-segundo-menu {
+    display: none;
+  }
+
+  /* FIN MENU */
+  /* FOOTER */
+  footer .foot-division .footer-desc-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .foot-division .footer-desc-container .footer-desc-info {
+    font-size: 2rem;
+  }
+  footer .foot-division .cont-foot-redes-tabla {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal h3 {
+    font-size: 2.5rem;
+  }
+  footer .foot-division .titulotabla-y-tabla {
+    width: 50%;
+  }
+  footer .foot-division .titulotabla-y-tabla .table td {
+    padding: 1rem 0rem;
+    font-size: 2rem;
+  }
+  footer .derechos {
+    font-size: 2rem;
+  }
+
+  /* FIN FOOTER */
+}
+@media only screen and (min-width: 1341px) {
+  /* MENU */
+  .header-index .index-primer-menu {
+    display: flex;
+  }
+  .header-index .index-segundo-menu {
+    display: none;
+  }
+
+  /* FIN MENU */
+  /* FOOTER */
+  footer .foot-division {
+    flex-direction: row;
+  }
+  footer .foot-division .footer-desc-container {
+    flex-direction: row;
+    width: 45%;
+  }
+  footer .foot-division .footer-desc-container .footer-desc-info {
+    font-size: 1.3rem;
+  }
+  footer .foot-division .cont-foot-redes-tabla {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  footer .foot-division .cont-foot-redes-tabla .redes-cont-ppal h3 {
+    font-size: 2.5rem;
+  }
+  footer .foot-division .titulotabla-y-tabla .table td {
+    padding: 1rem 0rem;
+    font-size: 2rem;
+  }
+  footer .derechos {
+    font-size: 2rem;
+  }
+
+  /* FIN FOOTER */
+}
+.body-musculacion, .body-contacto, .cuerpo-container .axure {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+.index-cuerpo {
+  background-color: #f3f3f3;
+  margin-top: 3.63rem;
+}
+.index-cuerpo .index-prologo {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dad5d5;
+}
+.index-cuerpo .index-prologo .tit-prologo {
+  color: #3d579a !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.index-cuerpo .index-prologo .index-funcional {
+  float: unset !important;
+  width: 100vw !important;
+  padding: 0.3rem;
+}
+.index-metodos {
+  color: #3d579a;
+  margin: 1.3rem;
+}
+
+.cuerpo-container .axure {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  background-image: url("../images/index/fon.jpg");
+}
+.cuerpo-container .axure .metodos-container .index-entrenam {
+  border: 1px solid black;
+  padding: 0rem;
+  box-shadow: 2px 4px 10px 0 #000;
+  transition: width 1.3s, padding 1s;
+  margin-bottom: 2rem;
+  padding: 3rem 3rem 3rem 2rem;
+  background: #b1b4be;
+  border-radius: 2%;
+}
+.cuerpo-container .axure .metodos-container .index-entrenam:hover {
+  transition: all 0.4s ease-in-out 0s;
+  box-shadow: 2px 4px 10px 0 #000;
+  padding: 2rem;
+  background: rgba(61, 87, 154, 0.7);
+}
+.cuerpo-container .axure .metodos-container .index-entrenam .index-entrenam-link:hover {
+  transition: all 0.4s ease-in-out 0s;
+  color: white;
+}
+.cuerpo-container .axure .metodos-container .index-entrenam .index-entrenam-im {
+  object-fit: cover;
+}
+.cuerpo-container .axure .motivacion {
+  padding: 3rem 3rem 0rem 3rem;
+  margin-bottom: 3rem;
+}
+.cuerpo-container .axure .motivacion .motivacion-descvid-container .motivacion-titule {
+  color: #3d579a !important;
+}
+.cuerpo-container .axure .motivacion .motivacion-descvid-container .frase-motivacional {
+  font-size: 2.6rem;
+}
+/* LO SEPARO PORQUE YA ES RESPONSIVE EL CAROUSEL */
+.texto-caro {
+  text-align: left !important;
+}
+
+.titulo-principal {
+  color: #3d579a;
+  font-weight: 400;
+}
+
+.nuestra-mision {
+  color: #3d579a;
+}
+
+@media only screen and (max-width: 646px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+}
+@media only screen and (min-width: 646px) and (max-width: 991px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 40rem !important;
+    padding-right: 4rem;
+  }
+  .index-entrenam {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1227px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 40rem !important;
+    padding-right: 4rem;
+  }
+  .index-entrenam-texto {
+    font-size: 1.3rem;
+  }
+
+  .frase-motivacional {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1092px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 40rem !important;
+    padding-right: 4rem;
+  }
+  .index-entrenam-texto {
+    font-size: 1.3rem;
+  }
+
+  .frase-motivacional {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (min-width: 1092px) and (max-width: 1227px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 40rem !important;
+    padding-right: 4rem;
+  }
+  .index-cuerpo {
+    margin-top: 6.52rem;
+  }
+  .index-entrenam-texto {
+    font-size: 1.3rem;
+  }
+
+  .frase-motivacional {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (min-width: 1227px) and (max-width: 1400px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 40rem !important;
+    padding-right: 4rem;
+  }
+  .index-cuerpo {
+    margin-top: 6.52rem;
+  }
+  .index-entrenam-texto {
+    font-size: 1.7rem;
+  }
+
+  .frase-motivacional {
+    font-size: 2.4rem !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 70rem !important;
+    padding-right: 4rem;
+  }
+  .index-cuerpo {
+    margin-top: 6.52rem;
+  }
+  .index-entrenam-texto {
+    font-size: 1.9rem;
+  }
+
+  .frase-motivacional {
+    font-size: 2.7rem !important;
+  }
+
+  .texto-caro {
+    font-size: 2.3rem;
+  }
+
+  .prologo-text {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .index-cuerpo {
+    margin-top: 4rem;
+  }
+
+  .prologo-text {
+    padding: 0 0.3rem;
+  }
+
+  .tit-prologo {
+    padding-top: 1.3rem;
+  }
+
+  .index-metodos {
+    padding-left: 0.8rem;
+  }
+
+  .index-cuerpo .index-prologo .index-funcional {
+    float: right !important;
+    width: 70rem !important;
+    padding-right: 4rem;
+  }
+  .index-cuerpo {
+    margin-top: 6.52rem;
+  }
+  .index-entrenam-texto {
+    font-size: 2.3rem;
+  }
+
+  .frase-motivacional {
+    font-size: 3rem !important;
+  }
+
+  .texto-caro {
+    font-size: 2.6rem;
+  }
+
+  .prologo-text {
+    font-size: 2.5rem;
+  }
+}
+.halt-index-cuerpo {
+  background-color: #f3f3f3;
+  margin-top: 6.52rem;
+}
+.halt-index-cuerpo .halt-cont {
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+.halt-index-cuerpo .halt-cont .halt-titu {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 1.3rem;
+}
+.halt-index-cuerpo .halt-cont .halterofilia-img {
+  width: 43rem;
+  float: right;
+}
+.halt-index-cuerpo .halt-cont .halt-text {
+  font-size: 2.5rem;
+  border-bottom: 0.1px solid black;
+}
+.halt-index-cuerpo .halt-cont .halt-text::first-letter {
+  font-size: 4rem;
+}
+
+.halt-entrenador-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+.halt-entrenador-titulo .halt-ver-curriculum {
+  margin-right: 3rem;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 7px;
+  background-color: lightblue;
+  transition: all 0.4s ease-in-out 0s;
+}
+.halt-entrenador-titulo .halt-ver-curriculum:hover {
+  margin-right: 3rem;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 7px;
+  background-color: rgba(61, 87, 154, 0.7);
+  cursor: pointer;
+}
+
+.halt-entrenador-descbreve {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.halt-entrenador-img-video {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 4px 10px 0 #000;
+  padding: 1rem 0rem;
+  flex-wrap: wrap;
+}
+.halt-entrenador-img-video .halt-entrenador-containter {
+  list-style: inside;
+  display: none;
+}
+.halt-entrenador-img-video .halt-entrenador-containter .halt-entrenador-item {
+  font-size: 2.5rem;
+}
+.halt-entrenador-img-video .halt-entrenador-img {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1rem solid black;
+  margin-right: 3rem;
+  width: 37%;
+  background-color: white;
+}
+
+.halt-video,
+.halt-entrenador-containter {
+  width: 60%;
+}
+
+.halt-video {
+  flex: 1;
+}
+
+@media only screen and (max-width: 784px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 3.63rem;
+  }
+  .halt-index-cuerpo .halt-cont .halterofilia-img {
+    float: unset;
+    width: 100vw;
+  }
+  .halt-entrenador-img-video .halt-entrenador-containter {
+    width: 95%;
+  }
+  .halt-entrenador-img-video .halt-entrenador-img {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 785px) and (max-width: 999px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 3.63rem;
+  }
+  .halt-entrenador-containter {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 999px) and (max-width: 1092px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 3.63rem;
+  }
+  .halt-entrenador-item {
+    font-size: 1.9rem !important;
+  }
+}
+@media only screen and (min-width: 1092px) and (max-width: 1285px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 6.52rem;
+  }
+  .halt-entrenador-item {
+    font-size: 1.9rem !important;
+  }
+}
+@media only screen and (min-width: 1285px) and (max-width: 1500px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 6.52rem;
+  }
+  .halt-entrenador-img-video .halt-entrenador-containter .halt-entrenador-item {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 6.52rem;
+  }
+  .halt-entrenador-img-video .halt-entrenador-containter .halt-entrenador-item {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .halt-index-cuerpo {
+    background-color: #f3f3f3;
+    margin-top: 6.52rem;
+  }
+  .halt-entrenador-img-video .halt-entrenador-containter .halt-entrenador-item {
+    font-size: 3rem;
+  }
+}
+.dietas-body {
+  margin-top: 6.52rem;
+  background-color: #cafbca;
+}
+.dietas-body .dietas-tituloppal {
+  padding-top: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  text-align: center;
+}
+.dietas-body .dietas-subtitulo {
+  font-family: "Mate SC", serif;
+  text-align: center;
+}
+.dietas-body .dietas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  margin-top: 5rem;
+}
+.dietas-body .dietas-container .dietas-img {
+  width: 40rem;
+  border-radius: 50%;
+}
+.dietas-body .dietas-container .dietas-descrip {
+  width: 60%;
+  align-self: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.dietas-body .dietas-servicios {
+  margin: 7rem 0rem 5rem 0rem;
+}
+.dietas-body .dietas-cards-container .dietas-card {
+  border: 0ch;
+  background-color: #cafbca;
+}
+.dietas-body .dietas-cards-container .dietas-card .dietas-imagen-tarjeta {
+  width: 10rem;
+  display: block;
+  margin: auto;
+}
+.dietas-body .dietas-cards-container .dietas-card .dietas-card-body .dietas-titulo-tarjeta {
+  font-size: 2rem;
+  text-align: center;
+}
+.dietas-body .dietas-cards-container .dietas-card .dietas-card-body .dietas-texto-tarjeta {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1092px) {
+  .dietas-body {
+    margin-top: 3.63rem;
+  }
+}
+@media only screen and (min-width: 1092px) {
+  .dietas-body {
+    padding: 0 3rem;
+  }
+}
+.body-musculacion, .body-contacto, .cuerpo-container .axure {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+.body-contacto {
+  background-image: url("https://i.ibb.co/mBxtfZn/contacto.jpg");
+  margin-top: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6.5rem;
+  margin-top: 6.52rem;
+}
+.body-contacto .contacto-titulo {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+.body-contacto .contenedor {
+  max-width: 80rem;
+  border: 1px solid black;
+  border-radius: 2%;
+  background-color: white;
+  padding: 2.5rem;
+}
+.body-contacto .contenedor .fle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.body-contacto .contenedor .fle .formu-inquietud {
+  font-style: italic;
+  max-width: 70%;
+}
+.body-contacto .contenedor .fle .formu-img {
+  width: 20rem;
+  padding-left: 2rem;
+  margin-top: -2rem;
+}
+.body-contacto .contenedor .fle .campo {
+  font-size: 2rem;
+}
+.body-contacto .contenedor .campos {
+  height: 5rem;
+  font-size: 2rem;
+}
+.body-contacto .contenedor .envi {
+  padding: 0rem 2rem;
+}
+.body-contacto .contenedor .comentenos {
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1092px) {
+  .body-contacto {
+    margin-top: 3.63rem;
+  }
+}
+.yoga-body {
+  background-image: url("https://i.ibb.co/wdKqJXV/fondo.jpg");
+}
+.yoga-body .primer-menu-yoga {
+  position: unset !important;
+  margin-top: 0 !important;
+}
+.yoga-body .segundo-menu-yoga {
+  position: unset !important;
+  margin-top: 0 !important;
+}
+.yoga-body .yoga-running-body .lista-yoga {
+  padding-left: 0rem;
+}
+.yoga-body .yoga-running-body .lista-yoga .yoga-item {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yoga-body .yoga-running-body .lista-yoga .yoga-item .texto-yoga {
+  width: 50%;
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 585px) {
+  .yoga-body .yoga-running-body .lista-yoga .yoga-item {
+    padding: 0rem;
+  }
+  .yoga-body .yoga-running-body .lista-yoga .yoga-item .yoga-video {
+    width: 100%;
+  }
+  .yoga-body .yoga-running-body .lista-yoga .yoga-item .texto-yoga {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .yoga-body .yoga-running-body .lista-yoga .yoga-item {
+    padding: 0rem;
+  }
+  .yoga-body .yoga-running-body .lista-yoga .yoga-item .texto-yoga {
+    width: 100%;
+  }
+}
+.body-musculacion, .cuerpo-container .axure, .body-contacto {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+.body-musculacion {
+  background-image: url("https://i.ibb.co/10WFvPc/fondo.jpg");
+  margin-top: 6.52rem;
+}
+.body-musculacion .musculacion-titulo {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 1.3rem;
+}
+.body-musculacion .musculacion-subtitulo {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.body-musculacion .muscu-cont .muscu-card {
+  margin: 2rem;
+}
+.body-musculacion .muscu-cont .muscu-card .card-profe-title-muscu {
+  font-size: 2rem;
+}
+.body-musculacion .muscu-map-container .card-body .muscu-map-titulo {
+  color: white;
+  text-align: center;
+  font-size: 3.3rem;
+}
+.body-musculacion .muscu-map-container .card-body .muscu-map-texto {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1091px) {
+  .body-musculacion {
+    margin-top: 3.63rem;
+  }
+  .body-musculacion .muscu-cont .muscu-card {
+    margin: 0rem;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .body-musculacion {
+    margin-top: 3.63rem;
+  }
+  .body-musculacion .muscu-cont .muscu-card {
+    margin: 0rem;
+  }
+  .body-musculacion .muscu-map-container .card-body .muscu-map-titulo {
+    color: black;
+    font-weight: 1000;
+  }
+  .body-musculacion .muscu-map-container .card-body .muscu-map-texto {
+    color: black;
+    font-weight: 900;
+  }
+}
+.error-titulo {
+  display: block;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+/*# sourceMappingURL=style.css.map */

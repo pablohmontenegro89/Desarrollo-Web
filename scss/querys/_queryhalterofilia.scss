@@ -1,0 +1,312 @@
+ @media only screen and (max-width: 784px) {
+   .halt-index-cuerpo{
+  background-color: lighten($gray, 45%);
+  margin-top: 3.63rem;
+  .halt-cont {
+        
+        .halterofilia-img {
+            float: unset;
+            width: 100vw;
+        }
+        .halt-text {
+      
+          &::first-letter {
+            
+          }
+        }
+    } 
+    .halt-entrenador-titulo {
+
+      .halt-ver-curriculum {
+
+         &:hover {     
+  
+         }
+      }
+    }
+  } 
+    .halt-entrenador-descbreve {
+
+    } 
+    .halt-entrenador-img-video {
+
+      .halt-entrenador-containter {
+        width: 95%;
+        .halt-entrenador-item {
+
+        }
+      }
+      .halt-entrenador-img {
+        width: 95%;
+        margin: auto;
+      }
+    }
+    
+    .halt-video,
+    .halt-entrenador-containter {
+
+    }
+    
+    .halt-video {
+
+    }
+
+
+}
+
+@media only screen and (min-width: 785px) and (max-width: 999px) {
+
+   .halt-index-cuerpo{
+  background-color: lighten($gray, 45%);
+  margin-top: 3.63rem;
+  .halt-cont {
+        
+        .halterofilia-img {
+
+        }
+        .halt-text {
+      
+          &::first-letter {
+            
+          }
+        }
+    } 
+    .halt-entrenador-titulo {
+
+      .halt-ver-curriculum {
+
+         &:hover {     
+  
+         }
+      }
+    }
+  }   
+
+    .halt-entrenador-containter {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 999px) and (max-width: 1092px) {
+  .halt-index-cuerpo{
+ background-color: lighten($gray, 45%);
+ margin-top: 3.63rem;
+ .halt-cont {
+       
+       .halterofilia-img {
+
+       }
+       .halt-text {
+     
+         &::first-letter {
+           
+         }
+       }
+   } 
+   .halt-entrenador-titulo {
+
+     .halt-ver-curriculum {
+
+        &:hover {     
+ 
+        }
+     }
+   }
+ }    
+   .halt-entrenador-item {
+       font-size: 1.9rem !important;
+   }
+}
+
+@media only screen and (min-width: 1092px) and (max-width: 1285px) {
+   .halt-index-cuerpo{
+  background-color: lighten($gray, 45%);
+  margin-top: 6.52rem;
+  .halt-cont {
+        
+        .halterofilia-img {
+
+        }
+        .halt-text {
+      
+          &::first-letter {
+            
+          }
+        }
+    } 
+    .halt-entrenador-titulo {
+
+      .halt-ver-curriculum {
+
+         &:hover {     
+  
+         }
+      }
+    }
+  }    
+    .halt-entrenador-item {
+        font-size: 1.9rem !important;
+    }
+}
+
+@media only screen and (min-width: 1285px) and (max-width: 1500px) {
+  .halt-index-cuerpo{
+    background-color: lighten($gray, 45%);
+    margin-top: 6.52rem;
+  .halt-cont {
+        
+        .halterofilia-img {
+  
+        }
+        .halt-text {
+      
+          &::first-letter {
+            
+          }
+        }
+    }
+  }  
+    .halt-entrenador-titulo {
+
+      .halt-ver-curriculum {
+
+         &:hover {     
+  
+         }
+      }
+    }
+   
+    .halt-entrenador-descbreve {
+
+    } 
+    .halt-entrenador-img-video {
+
+      .halt-entrenador-containter {
+  
+        .halt-entrenador-item {
+            font-size: 2.5rem;
+        }
+      }
+      .halt-entrenador-img {
+   
+      }
+    }
+    
+    .halt-video,
+    .halt-entrenador-containter {
+
+    }
+    
+    .halt-video {
+
+    }
+
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+  .halt-index-cuerpo{
+    background-color: lighten($gray, 45%);
+    margin-top: 6.52rem;
+  .halt-cont {
+        
+        .halterofilia-img {
+  
+        }
+        .halt-text {
+      
+          &::first-letter {
+            
+          }
+        }
+    }
+  } 
+        .halt-entrenador-titulo {
+    
+          .halt-ver-curriculum {
+    
+             &:hover {     
+      
+             }
+          }
+        }
+       
+        .halt-entrenador-descbreve {
+    
+        } 
+        .halt-entrenador-img-video {
+    
+          .halt-entrenador-containter {
+      
+            .halt-entrenador-item {
+                font-size: 2.5rem;
+            }
+          }
+          .halt-entrenador-img {
+       
+          }
+        }
+        
+        .halt-video,
+        .halt-entrenador-containter {
+    
+        }
+        
+        .halt-video {
+    
+        }
+    
+    }
+
+    @media only screen and (min-width: 1700px) {
+      .halt-index-cuerpo{
+        background-color: lighten($gray, 45%);
+        margin-top: 6.52rem;
+      .halt-cont {
+            
+            .halterofilia-img {
+      
+            }
+            .halt-text {
+          
+              &::first-letter {
+                
+              }
+            }
+        }
+      } 
+            .halt-entrenador-titulo {
+        
+              .halt-ver-curriculum {
+        
+                 &:hover {     
+          
+                 }
+              }
+            }
+           
+            .halt-entrenador-descbreve {
+        
+            } 
+            .halt-entrenador-img-video {
+        
+              .halt-entrenador-containter {
+          
+                .halt-entrenador-item {
+                    font-size: 3rem;
+                }
+              }
+              .halt-entrenador-img {
+           
+              }
+            }
+            
+            .halt-video,
+            .halt-entrenador-containter {
+        
+            }
+            
+            .halt-video {
+        
+            }
+        
+        }

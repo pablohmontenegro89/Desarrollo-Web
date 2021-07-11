@@ -1,0 +1,82 @@
+@import '../base/condicion';
+ .halt-index-cuerpo{
+  background-color: lighten($gray, 45%);
+  margin-top: 6.52rem;
+.halt-cont {
+      padding: 0rem 1.5rem 1.5rem 1.5rem;
+      .halt-titu {
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-top: 1.3rem;
+      }
+      .halterofilia-img {
+        width: 43rem;
+        float: right;
+      }
+      .halt-text {
+        font-size: 2.5rem;
+        border-bottom: 0.1px solid black;
+        &::first-letter {
+          font-size: 4rem;
+        }
+      }
+  }
+} 
+  .halt-entrenador-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    .halt-ver-curriculum {
+      margin-right: 3rem;
+      border: 2px solid black;
+      padding: 1rem;
+      border-radius: 7px;
+      background-color: lightblue;
+      transition: all 0.4s ease-in-out 0s;
+       &:hover {     
+          margin-right: 3rem;
+          border: 2px solid black;
+          padding: 1rem;
+          border-radius: 7px;
+          background-color: rgba(61, 87, 154, 0.7);
+          cursor: pointer;
+       }
+    }
+  }
+ 
+  .halt-entrenador-descbreve {
+    font-size: 2rem;
+    padding: 2rem;
+  } 
+  .halt-entrenador-img-video {
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 4px 10px 0 #000;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+    .halt-entrenador-containter {
+      list-style: inside;
+      display: none;
+      .halt-entrenador-item {
+        font-size: 2.5rem;
+      }
+    }
+    .halt-entrenador-img {
+      padding: 0.5rem;
+      border-radius: 50%;
+      border: 1rem solid black;
+      margin-right: 3rem;
+      @include condicion(37%);
+    }
+  }
+  
+  .halt-video,
+  .halt-entrenador-containter {
+    width: 60%;
+
+  }
+  
+  .halt-video {
+    flex: 1;
+  }

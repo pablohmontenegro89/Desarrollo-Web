@@ -1,0 +1,63 @@
+@media only screen and (min-width:575px) and (max-width: 1091px){
+    .body-musculacion{
+        margin-top: 3.63rem;
+        .musculacion-titulo {
+            
+        }
+        .musculacion-subtitulo{
+
+        }
+        .muscu-cont {
+            
+          .muscu-card{
+            margin: 0rem;
+            .card-profe-title-muscu{
+
+            }
+          }
+        }
+        .muscu-map-container{
+          .card-body{   
+          .muscu-map-titulo{
+            
+          }
+          .muscu-map-texto{
+            
+          }
+        }
+        }
+      }
+}
+
+@media only screen and (max-width: 575px){
+  .body-musculacion{
+      margin-top: 3.63rem;
+      .musculacion-titulo {
+          
+      }
+      .musculacion-subtitulo{
+
+      }
+      .muscu-cont {
+          
+        .muscu-card{
+          margin: 0rem;
+          .card-profe-title-muscu{
+
+          }
+        }
+      }
+      .muscu-map-container{
+        .card-body{   
+        .muscu-map-titulo{
+          color: black;
+          font-weight: 1000;
+        }
+        .muscu-map-texto{
+          color: black;
+          font-weight: 900;
+        }
+      }
+      }
+    }
+}

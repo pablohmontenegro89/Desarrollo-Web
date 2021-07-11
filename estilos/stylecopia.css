@@ -1,0 +1,923 @@
+/* BOOTSTRAP */
+
+.titulo-principal {
+    padding: 1rem 0;
+  }
+  
+  /* GENERAL */
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5% ;
+    height: 100% ;
+    min-height: 100% ;
+  }
+  
+  * {
+    padding: 0 ;
+    margin: 0 ;
+  }
+  
+  h1 {
+    font-size: 3rem ;
+    font-family: "Barlow Condensed", sans-serif ;
+  }
+  
+  h2 {
+    font-size: 2.5rem ;
+  }
+  
+  h3 {
+    font-size: 2rem ;
+  }
+  
+  body {
+    background: #ffffff ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-attachment: fixed ;
+  }
+  
+  a {
+    text-decoration: none ;
+    color: black ;
+  }
+  
+  p {
+    font-size: 1.85rem ;
+  }
+  
+  /* INDEX */
+  
+  .index-segundo-menu {
+    display: none;
+  }
+  
+  .index-primer-menu {
+    position: fixed;
+    background-image: url("../images/index/fondo2.jpg") ;
+    color: white ;
+    display: flex;
+    justify-content: space-between ;
+    padding: 0rem 2rem ;
+    align-items: center ;
+    align-content: flex-start ;
+    flex-wrap: wrap ;
+    width: 100vw;
+    margin-top: -6rem;
+    z-index: 1;
+  }
+  
+  .index-cuerpo {
+    margin: 2rem ;
+    margin-top: 6rem;
+  }
+  
+  .index-metodos {
+    padding-left: 2rem ;
+  }
+  
+  .header-index-titulos {
+    font-size: 3rem ;
+    letter-spacing: 0.3rem ;
+    display: flex ;
+    flex-direction: column ;
+    align-content: flex-start ;
+    margin: 0 ;
+  }
+  
+  .index-funcional {
+    width: 43rem ;
+    float: right ;
+  }
+  
+  .prologo-text {
+    font-size: 2.8rem ;
+  }
+  
+  .index-prologo {
+    padding: 1.5rem ;
+    border-bottom: 0.1px solid black ;
+  }
+  
+  .menu > ul {
+    font-family: "Lora", serif ;
+    font-size: 2.3rem ;
+    padding: 1rem ;
+  }
+  
+  .menu > ul > li {
+    padding: 0.8rem ;
+  }
+  
+  .menu-item {
+    font-family: "Courier New", Courier, monospace ;
+    font-weight: 900 ;
+    color: white ;
+    padding: 0.45rem ;
+  }
+  
+  .menu-item:hover {
+    transition: all 0.4s ease-in-out 0s ;
+    transform: scale(1.5) ;
+    text-decoration: underline ;
+  }
+  
+  .cuerpo-container {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+    flex: 1 ;
+  }
+  
+  .motivacion {
+    width: 40% ; 
+  }
+  
+  .motivacion-video {
+    width: 500px ;
+    height: 283px ;
+  }
+  
+  .metodos-container {
+    display: flex ;
+    flex-direction: column ;
+    width: 50% ;
+    margin-bottom: 3rem ;
+  }
+  
+  .index-entrenam {
+    box-shadow: 2px 4px 10px 0 #000 ;
+    transition: width 1.3s, padding 1s ;
+    margin: 3rem ;
+    padding: 3rem 3rem 3rem 2rem ;
+    background: white ;
+  }
+  
+  .index-entrenam-im {
+    width: 30rem ;
+  }
+  
+  .index-entrenam-link {
+    display: flex ;
+  }
+  
+  .index-entrenam-link-descrip {
+    min-width: 70% ;
+  }
+  
+  .index-entrenam-im {
+    position: relative ;
+    top: 3.5rem ;
+    left: 10rem ;
+    margin-left: -10rem ;
+  }
+  
+  .index-entrenam-link:hover {
+    transition: all 0.4s ease-in-out 0s ;
+    text-decoration: underline ;
+    text-shadow: 2px 2px 7px ;
+  }
+  
+  .index-entrenam:hover {
+    box-shadow: 2px 4px 10px 0 #000 ;
+    padding: 2rem ;
+  }
+  
+  .frase-motivacional {
+    font-size: 3.2rem ;
+    margin-bottom: 3rem ;
+  }
+  
+  .index-boot-containter {
+    padding: 0rem 5rem;
+  }
+  
+  /*    INDEX--FOOTER */
+  
+  .qr-cod {
+    width: 20rem ;
+    align-self: center ;
+    padding-top: 2rem ;
+  }
+  
+  .footer-tit-qr {
+    display: flex ;
+    flex-direction: column ;
+  }
+  
+  footer {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    padding: 4rem 2rem 0.3rem 2rem ;
+    background: #f7f8f9 ;
+  }
+  
+  .foot-division {
+   display: flex ;
+  } 
+  
+  .footer-desc-container {
+    display: flex ;
+  }
+  
+  .footer-desc-info {
+    font-size: 1.3rem ;
+    padding: 3rem ;
+    width: 60% ;
+  }
+  
+  .table,
+  td {
+    border: 1px solid black ;
+    padding: 5px ;
+    font-size: 2rem ;
+    background: radial-gradient(circle, #fff, #ccc) ;
+  }
+  
+  .titulotabla-y-tabla {
+    display: flex ;
+    flex-direction: column ;
+  }
+  
+  .titulotabla-y-tabla > h2 {
+    align-self: center ;
+  }
+  
+  .redes-img {
+    width: 2rem ;
+    margin-right: 0.5rem ;
+  }
+  
+  .cont-foot-redes-tabla {
+    display: flex ;
+  }
+  
+  .redes-cont-ppal {
+    margin-right: 6rem ;
+  }
+  
+  .redes-cont {
+    display: flex ;
+    margin-top: 1.5rem ;
+  }
+  
+  .redes-cont:hover {
+    transition: all 0.4s ease-in-out 0s ;
+    transform: scale(1.3) ;
+    text-decoration: underline ;
+    text-shadow: 2px 2px 7px ;
+  }
+  
+  .derechos {
+    align-self: center ;
+  }
+  
+  /* Index responsive */
+  /* IPHONE X */
+  @media only screen and (max-width: 467px) {
+    .prologo-text, .frase-motivacional {
+      font-size: 1.3rem;
+    }
+  .index-segundo-menu {
+      display: inline !important;
+    }
+    .index-primer-menu {
+      display: none;
+    }
+    .index-prologo {
+      padding: 0rem;
+    }
+    .index-cuerpo {
+      margin: 2rem ;
+      margin-top: 0rem;
+    }
+    .menu > ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .cuerpo-container {
+      justify-content: unset;
+      flex-direction: column;
+      align-items: center;
+    }
+    .foot-division {
+      flex-direction: column;
+    }
+    .index-entrenam {
+      margin: 3rem 0;
+    }
+    .index-entrenam-im {
+      top: 6.5rem;
+      display: none;
+    }
+    .metodos-container {
+      width: 85%;
+    }
+    .motivacion-descvid-container {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .motivacion {
+      width: 90%;
+      margin: auto;
+    }
+    .footer-tit-qr-d {
+      font-size: 2rem;
+    }
+    .motivacion-video {
+      width: 275px;
+      height: 156px;
+    }
+    .redes-cont-ppal {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-desc-container {
+      flex-direction: column;
+    }
+    .footer-desc-info {
+      width: 100%;
+      padding: 1rem;
+    }
+    .cont-foot-redes-tabla {
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+    .table,
+    td {
+      padding: 1px;
+      font-size: 1.3rem;
+    }
+    .titulotabla-y-tabla {
+      margin-top: 1rem;
+    }
+    .titulotabla-y-tabla > h2 {
+      align-self: flex-start;
+    }
+  }
+  
+  /* INTERMEDIO */
+  @media only screen and (min-width: 467px) and (max-width: 723px) {
+    .index-funcional, .halterofilia-img {
+      float: none;
+    }
+    .index-segundo-menu {
+      display: inline !important;
+    }
+    .index-primer-menu {
+      display: none;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .cuerpo-container {
+      justify-content: unset;
+      flex-direction: column;
+      align-items: center;
+    }
+    .index-prologo, .halt-cont {
+      padding: 0rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .index-cuerpo {
+      margin: 2rem ;
+      margin-top: 0rem;
+    }
+    .menu > ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .cuerpo-container {
+      justify-content: unset;
+      flex-direction: column;
+      align-items: center;
+    }
+    .foot-division {
+      flex-direction: column;
+    }
+    .index-entrenam {
+      margin: 3rem 0;
+    }
+    .index-entrenam-im {
+      top: 6.5rem;
+      display: none;
+    }
+    .metodos-container {
+      width: 85%;
+    }
+    .motivacion-descvid-container {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .motivacion {
+      width: 90%;
+      margin: auto;
+    }
+    .footer-tit-qr-d {
+      font-size: 2rem;
+    }
+    .motivacion-video {
+      width: 358px;
+      height: 203px;
+    }
+    .redes-cont-ppal {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-desc-container {
+      flex-direction: column;
+    }
+    .footer-desc-info {
+      width: 100%;
+      padding: 1rem;
+    }
+    .cont-foot-redes-tabla {
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+    .table,
+    td {
+      padding: 1px;
+      font-size: 1.3rem;
+    }
+    .titulotabla-y-tabla {
+      margin-top: 1rem;
+    }
+    .titulotabla-y-tabla > h2 {
+      align-self: flex-start;
+    }
+  }
+  
+  /* IPAD */
+  
+  @media only screen and (min-width: 723px) and (max-width: 1023px) {
+   /*  .header-index {
+      align-items: flex-start;
+    } */
+  /*   .index-primer-menu {
+      display: flex;
+    } */
+    .titulo-yoga {
+      font-size: 2rem;
+    }
+    .texto-yoga {
+      width: 90% !important;
+      padding: 0;
+    }
+    .halterofilia-img {
+      float: none;
+    }
+    .halt-cont {
+      padding: 0rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .index-segundo-menu {
+      display: inline !important;
+    }
+    .index-primer-menu {
+      display: none;
+    }
+    .index-prologo, .halt-cont{
+      margin-top: -8rem;
+    }
+    .menu > ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .cuerpo-container {
+      justify-content: unset;
+      flex-direction: column;
+    }
+    .foot-division {
+      flex-direction: column;
+    }
+  
+    .index-entrenam-im {
+      top: 6.5rem;
+    }
+    .metodos-container {
+      width: 85%;
+    }
+    .motivacion {
+      width: 90%;
+      margin: auto;
+    }
+    .footer-tit-qr-d {
+      font-size: 2rem;
+    }
+    .cont-foot-redes-tabla {
+      margin-top: 2rem;
+    }
+    .derechos {
+      margin-top: 2rem;
+    }
+   .footer-desc-container, .cont-foot-redes-tabla {
+     justify-content: space-between;
+   }
+  .motivacion-descvid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  }
+  
+  /* IPAD PRO */
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1340px) {
+    .header-index {
+      align-items: flex-start;
+    }
+    .motivacion-descvid-container { /* se repite para iphone */
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .titulotabla-y-tabla{
+      width: 70%;
+    }
+    .cuerpo-container{
+      align-items: center;
+    }
+    .motivacion-video {
+        width: 907px ;
+        height: 514px ;
+    }
+    .texto-caro{
+      font-size: 1.3rem;
+    }
+    .index-primer-menu {
+      margin-top:-18rem
+    }
+    h1 {
+      font-size: 2.7rem;
+    }
+    .body-index, .index-cuerpo {
+      margin-top: 18rem;
+    }
+    .menu > ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .cuerpo-container {
+      justify-content: unset;
+      flex-direction: column;
+    }
+    .foot-division {
+      flex-direction: column;
+    }
+  
+    .index-entrenam-im {
+      top: 6.5rem;
+    }
+    .metodos-container {
+      width: 85%;
+    }
+    .motivacion {
+      width: 90%;
+      margin: auto;
+    }
+    .footer-tit-qr-d {
+      font-size: 2rem;
+    }
+    .footer-desc-info {
+      width: 100%;
+      padding: 1rem;
+      font-size: 2rem;
+    }
+    .qr-cod {
+      float: left;
+      align-self: flex-start;
+    }
+    .cont-foot-redes-tabla {
+      margin-top: 2rem;
+    }
+    .derechos {
+      margin-top: 2rem;
+    }
+  }
+  
+  /* CONTACTO */
+  
+  .lista-yoga-titulo {
+    margin-left: 3rem;
+  }
+  
+  form {
+    padding: 4rem;
+  }
+  
+  .formu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formu-img {
+    width: 30rem;
+    border: 2px solid black;
+    padding: 2rem;
+    background-color: rgb(194, 199, 194);
+  }
+  
+  .formu-solo {
+    max-width: 70rem;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(194, 199, 194);
+  }
+  
+  .formu-temas,
+  .formu-check,
+  .formu-inquietudes {
+    display: flex;
+    padding: 0.6rem;
+  }
+  
+  .formu-check {
+    align-items: center;
+  }
+  
+  .checkbox-item {
+    width: 2rem;
+  }
+  
+  .formu-inquietudes {
+    flex-direction: column;
+  }
+  
+  .formu-mail {
+    width: 40rem;
+    font-style: italic;
+  }
+  
+  .formu-inquietud {
+    height: 14rem;
+    width: 60rem;
+    font-style: italic;
+  }
+  
+  .inquietud {
+    font-size: 5rem;
+  }
+  
+  .formu-opciones {
+    font-size: 3rem;
+  }
+  
+  .enter {
+    background: white;
+  }
+  
+  .formu-intro {
+    font-size: 3rem;
+  }
+  
+  .formu-mail,
+  .formu-inquietud {
+    font-size: 2rem;
+    background-color: rgb(236, 243, 134);
+    margin-bottom: 1rem;
+  }
+  
+  .formu-mail:focus,
+  .formu-inquietud:focus {
+    font-size: 2rem;
+    background-color: white;
+  }
+  
+  .formu input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    padding: 1rem;
+    width: 10rem;
+  }
+  
+  .formu input[type="submit"]:hover {
+    background-color: #5f9;
+    border-bottom: none;
+    padding: 1rem;
+    width: 10rem;
+  }
+  
+  /* HALTEROFILIA */
+  
+  .header-halterofilia {
+    width: 100%;
+    background-color: turquoise;
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #66b3ff;
+  }
+  
+  .halt-body {
+    margin: 2rem;
+    margin-top: 6rem;
+  }
+  
+  .halt-cont {
+      padding: 1.5rem ;
+  }
+  
+  .halterofilia-img {
+    width: 43rem;
+    float: right;
+  }
+  
+  .halt-text {
+    font-size: 2.5rem;
+    border-bottom: 0.1px solid black;
+  }
+  
+  .halt-entrenador-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .halt-ver-curriculum {
+    margin-right: 3rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: lightblue;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .halt-ver-curriculum:hover {
+    margin-right: 3rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: rgba(61, 87, 154, 0.7);
+  }
+  
+  .halt-entrenador-descbreve {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .halt-entrenador-img {
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1rem solid black;
+    width: 37%;
+    margin-right: 3rem;
+  }
+  
+  .halt-entrenador-containter {
+    list-style: inside;
+    display: none;
+  }
+  
+  .halt-entrenador-item {
+    font-size: 2.5rem;
+  }
+  
+  .halt-text::first-letter {
+    font-size: 4rem;
+  }
+  
+  .halt-entrenador-img-video {
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 4px 10px 0 #000;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .halt-video,
+  .halt-entrenador-containter {
+    width: 60%;
+  }
+  
+  .halt-video {
+    flex: 1;
+  }
+  
+  /* MUSCULACION Y ADELGAZAMIENTO */
+  
+  .header-musculacion {
+    width: 100%;
+  }
+  
+  /* YOGA Y RUNNING */
+  
+  .header-yoga {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .titulo-yoga {
+    padding-left: 3rem;
+  }
+  
+  .yoga-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 2.6rem;
+  }
+  
+  .yoga-menu-item,
+  .submenu-yoga {
+    list-style: none;
+    background: linear-gradient(to bottom, transparent, rgb(120, 141, 235));
+  }
+  
+  .yoga-submenu-item {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 2rem;
+    width: 140%;
+    margin-right: -3rem;
+    padding-left: 0.3rem;
+    background: rgb(170, 172, 170);
+  }
+  
+  .yoga-menu-item {
+    padding: 1rem;
+    position: relative;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin: 3rem 9rem 3rem 3rem;
+  }
+  
+  .yoga-menu-item:hover {
+    padding: 1rem;
+    position: relative;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin: 3rem 9rem 3rem 3rem;
+  }
+  
+  .submenu-yoga {
+    position: absolute;
+    visibility: hidden;
+    margin-left: -1rem;
+  }
+  
+  .yoga-menu-item:hover .submenu-yoga {
+    visibility: visible;
+    margin-top: 1.5rem;
+  }
+  
+  .yoga-body {
+    background-image: url("../images/yogayrunning/fondo.jpg");
+  }
+  
+  .yoga-item {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .texto-yoga {
+    width: 50%;
+    padding-top: 2rem;
+  }
+  
+  /* DIETAS */
+  
+  .body-dietas {
+    margin: 2rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 3px solid #000;
+    grid-gap: 10px;
+    margin-top: 2rem;
+  }
+  
+  .grid-item {
+    border: 1px solid #000;
+    object-fit: contain;
+  }
+  
+  .grid-item:hover {
+    border: 1px solid #000;
+    object-fit: contain;
+    transform: scale(1.03);
+  }

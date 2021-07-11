@@ -1,0 +1,51 @@
+@import '../base/extend';
+@import '../base/listmaps';
+
+.body-contacto {
+    background-image: url('https://i.ibb.co/mBxtfZn/contacto.jpg');
+    @extend %Background;
+    margin-top: map-get($maps, pad);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: map-get($maps, pad);
+    margin-top: 6.52rem;
+    .contacto-titulo{
+      font-size: 5rem;
+      text-align: center;
+      color: white ;
+    }
+    .contenedor {
+      max-width: 80rem;
+      border: 1px solid nth($colores, 4);
+      border-radius: 2%;
+      background-color: white;
+      padding: 2.5rem;
+      .fle {
+        display: flex;
+        flex-wrap: wrap;
+        .formu-inquietud {  
+          font-style: italic;
+          max-width: 70%;
+        }
+        .formu-img {
+          width: 20rem;
+          padding-left: map-get($maps, medida);
+          margin-top: -2rem;
+        }
+        .campo {
+          font-size: map-get($maps, medida);
+        }
+      }
+    .campos {
+      height: 5rem;
+      font-size: map-get($maps, medida);
+    }
+    .envi {
+      padding: 0rem map-get($maps, medida);
+    }
+    .comentenos {
+      padding-top: 1rem;
+    }
+    }
+  
+  }

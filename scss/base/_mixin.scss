@@ -1,0 +1,77 @@
+@mixin repe {
+    .index-cuerpo {
+        margin-top: 4rem;
+    }
+    .prologo-text {
+        padding: 0 0.3rem;
+    }
+    .tit-prologo{
+        padding-top: 1.3rem;
+    }
+    .index-metodos {
+        padding-left: 0.8rem;
+    }
+}
+
+@mixin reme {
+    .index-cuerpo {
+       
+        .index-prologo{
+
+            .tit-prologo{
+
+            }
+            .index-funcional{
+                float: right !important;
+                width: 40rem !important;
+                padding-right: 4rem;
+            }
+            .prologo-text{
+                
+            }
+        }
+    }
+}
+
+@mixin piff {
+    .index-cuerpo {
+       margin-top: 6.52rem;
+        .index-prologo{
+
+            .tit-prologo{
+
+            }
+            .index-funcional{
+            }
+            .prologo-text{
+                
+            }
+        }
+    }
+}
+
+
+@mixin rema {
+    .index-cuerpo {
+       
+        .index-prologo{
+
+            .tit-prologo{
+
+            }
+            .index-funcional{
+                float: right !important;
+                width: 70rem !important;
+                padding-right: 4rem;
+            }
+            .prologo-text{
+                
+            }
+        }
+    }
+}
+
+@mixin flee($display, $justify-content) {
+    display: $display;
+    justify-content: $justify-content;
+}

@@ -1,0 +1,77 @@
+footer {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    padding: 4rem 2rem 0.3rem 2rem ;
+    background: #f7f8f9 ;
+    .foot-division {
+        display: flex ;
+        flex-direction: column;
+        .footer-desc-container{
+            display: flex ;
+            flex-direction: column;
+            .footer-tit-qr {
+                display: flex ;
+                flex-direction: column ;
+                .footer-tit-qr-d {
+                    font-size: 2rem;
+                }
+                .qr-cod {
+                    width: 20rem ;
+                    align-self: center ;
+                    padding-top: 2rem ;
+                }
+            }
+            .footer-desc-info {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+        .cont-foot-redes-tabla {
+            display: flex ;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex: 1;
+            .redes-cont-ppal {
+                display: flex;
+                flex-direction: column;
+                .redes-cont {
+                    display: flex ;
+                    margin-top: 1.5rem ;
+                    &:hover {
+                        transition: all 0.4s ease-in-out 0s ;
+                        transform: scale(1.03) ;
+                        text-decoration: underline ;
+                        text-shadow: 2px 2px 7px ;
+                    }
+                    .redes-img {
+                        width: 2rem ;
+                        margin-right: 0.5rem ;
+                    }
+                }
+            }
+            .titulotabla-y-tabla{
+                display: flex ;
+                flex-direction: column ;
+                margin-top: 1rem;
+                h2 {
+                    align-self: flex-start;
+                }
+                .table {
+                    padding: 1px;  //SE REPITE CON TD
+                    font-size: 1.3rem;
+                    border: 1px solid black ;
+                    /* font-size: 2rem ; */
+                    background: radial-gradient(circle, #fff, #ccc) ;
+                    td {
+                        border: 1px solid black ;
+                    }                   
+                }
+            }
+        }
+    }
+    .derechos {
+        align-self: center ;
+        font-size: 1rem;
+    }
+}
