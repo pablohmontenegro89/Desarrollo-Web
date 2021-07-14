@@ -715,7 +715,7 @@ footer .derechos {
   }
   .halt-index-cuerpo .halt-cont .halterofilia-img {
     float: unset;
-    width: 100vw;
+    width: 100%;
   }
   .halt-entrenador-img-video .halt-entrenador-containter {
     width: 95%;
